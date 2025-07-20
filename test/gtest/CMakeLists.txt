@@ -1,5 +1,3 @@
-enable_testing()
-
 add_executable(mp-tests
                free_test.cpp
                basic_compaction.cpp)
