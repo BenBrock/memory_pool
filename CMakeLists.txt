@@ -8,6 +8,8 @@ set(CMAKE_CXX_FLAGS "-O3 -march=native")
 
 option(ENABLE_SANITIZERS "Enable Clang sanitizers" OFF)
 
+enable_testing()
+
 # Get includes, which declares the `memory_pool` library
 add_subdirectory(include)
 
